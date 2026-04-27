@@ -5,8 +5,8 @@ import './index.css';
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    // Registering with the absolute-style path prefix forAuto-typing
-    navigator.serviceWorker.register('/Auto-typing/sw.js').catch(err => {
+    // Registering with a relative path so it works regardless of the base URL
+    navigator.serviceWorker.register('sw.js').catch(err => {
       console.log('SW registration failed: ', err);
     });
   });
