@@ -5,7 +5,9 @@ import './index.css';
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sw.js').catch(err => {
+    // Determining the base path correctly for GitHub Pages or root
+    const swPath = import.meta.env.BASE_URL + 'sw.js';
+    navigator.serviceWorker.register(swPath).catch(err => {
       console.log('SW registration failed: ', err);
     });
   });
