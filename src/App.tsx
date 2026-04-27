@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { MoreVertical, Copy, MousePointer, Check, FileText, ChevronUp, Delete, CornerDownLeft, Smile, Moon, Sun, Download, Trash2, XCircle } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 type Speed = 'Slow' | 'Normal' | 'Fast';
 
