@@ -1,9 +1,9 @@
 // Basic service worker for PWA support
 const CACHE_NAME = 'notetype-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/manifest.json'
+  './',
+  'index.html',
+  'manifest.json'
 ];
 
 self.addEventListener('install', (event) => {

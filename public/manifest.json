@@ -2,7 +2,7 @@
   "name": "NoteType Pro",
   "short_name": "NoteType",
   "description": "Professional Notepad with Auto-Typing",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ef4444",
