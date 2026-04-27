@@ -194,7 +194,7 @@ export default function App() {
       };
 
       typeSequence();
-    }, 5000);
+    }, 1000);
   };
 
   const rows = [
